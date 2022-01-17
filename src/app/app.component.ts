@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'live-kc';
+  logo = '../assets/logo_angular.svg';
 }
