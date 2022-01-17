@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'contactos', loadChildren: () => import('./contactos/contactos.module').then(m => m.ContactosModule) },
   { path: 'libros', loadChildren: () => import('./libros/libros.module').then(m => m.LibrosModule) },
   { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({
