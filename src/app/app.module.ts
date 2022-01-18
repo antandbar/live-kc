@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AboutModule } from './about/about.module';
 
@@ -13,6 +14,7 @@ import { HomeModule } from './home/home.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     CoreModule,
     HomeModule,
