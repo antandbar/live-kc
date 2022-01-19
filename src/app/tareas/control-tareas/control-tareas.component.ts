@@ -17,8 +17,8 @@ export class ControlTareasComponent implements OnInit {
     this.aTareas?.push(tarea);
     console.dir(this.aTareas);
   }
-  deleteTareas() {
-
+  deleteTareas(i: number) {
+    this.aTareas?.splice(i, 1);
   }
 
 }
