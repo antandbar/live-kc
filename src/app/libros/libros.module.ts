@@ -3,15 +3,29 @@ import { CommonModule } from '@angular/common';
 
 import { LibrosRoutingModule } from './libros-routing.module';
 import { LibrosComponent } from './libros.component';
+import { MockBooksComponent } from './mock-books/mock-books.component';
+import { FormsModule } from '@angular/forms';
+import { MbooksService } from '../services/mbooks.service';
+import { GoogleBooksComponent } from './google-books/google-books.component';
+import { GoogleByServiceComponent } from './google-by-service/google-by-service.component';
+import { GbooksService } from '../services/gbooks.service';
 
 
 @NgModule({
   declarations: [
-    LibrosComponent
+    LibrosComponent,
+    MockBooksComponent,
+    GoogleBooksComponent,
+    GoogleByServiceComponent
   ],
   imports: [
     CommonModule,
+    FormsModule,
     LibrosRoutingModule
+  ],
+  providers: [
+    MbooksService,
+    GbooksService
   ]
 })
 export class LibrosModule { }

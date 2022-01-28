@@ -17,8 +17,8 @@ export const SECTORES: Array<Sector> = [
 ];
 
 export const AFICIONES: Array<Aficion> = [
-    { id: 1, nombre: 'Tecnico', descripcion: '' },
-    { id: 2, nombre: 'Creativo', descripcion: '' },
-    { id: 3, nombre: 'Comercial', descripcion: '' },
-    { id: 4, nombre: 'Otros', descripcion: '' },
+    { id: 1, nombre: 'Lectura', descripcion: '' },
+    { id: 2, nombre: 'Musica', descripcion: '' },
+    { id: 3, nombre: 'Deporte', descripcion: '' },
+    { id: 4, nombre: 'Viajar', descripcion: '' },
 ];
